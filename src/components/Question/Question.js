@@ -8,7 +8,8 @@ const Question = (props) => {
     const showAns =(elem)=>{
         if(correctAnswer === elem){
             console.log("Correct");
-            document.querySelector('.option').style.backgroundColor="red";
+            // document.querySelector('.option').style.backgroundColor="red";
+            // document.querySelector('.option').attributes="disabled";
         }
         else {
             console.log("Incorrect")
@@ -21,7 +22,7 @@ const Question = (props) => {
             <div className="options">
                 {/* <input type="radio" name="" id="" /> */}
                 {/* <p className='option'>{elem}</p> */}
-                {options.map((elem,idx) => 
+                {options.map(elem => 
                     <label className='option'>
                     <input onClick={() => showAns(elem)} type="radio" name={id} id={elem} value={elem} /> 
                     <label for={elem}>{elem}</label>
