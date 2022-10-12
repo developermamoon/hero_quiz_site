@@ -1,6 +1,9 @@
 .statistisc{
     text-align: center;
 }
+.statistisc h2{
+    margin: 20px 0;
+}
 .recharts-wrapper {
     margin: 0 auto;
 }

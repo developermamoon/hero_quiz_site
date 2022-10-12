@@ -17,11 +17,16 @@
     margin-top: 10px;
     margin-right: 20px;
 }
+.return-btn:hover{
+    background-color: darkgreen;
+    color: white;
+}
 .return-btn a{
     text-decoration: none;
     color: white;
 }
-
-.return-btn:hover{
-    background-color: darkgreen;
+.return-btn a:hover{
+    text-decoration: none;
+    color: white;
 }
+

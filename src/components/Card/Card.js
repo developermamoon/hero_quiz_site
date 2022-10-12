@@ -3,7 +3,6 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Card.css'
-import { Button } from 'react-bootstrap';
 
 const Card = (props) => {
     const {id, name, logo, total } = props.quiz;
@@ -12,7 +11,7 @@ const Card = (props) => {
             <img src={logo} alt="" />
             <div className="lower-part">
                 <h5>{name}</h5>
-                <Link to=''><button className='practise-btn'>Start Practise &nbsp; <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button></Link>
+                <Link to={`${id}`}><button className='practise-btn'>Start Practise &nbsp; <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button></Link>
             </div>
         </div>
     );
