@@ -12,8 +12,10 @@ const Home = () => {
             <div className="banner">
                 <div className="text-part">
                     <h1>Test your Skills</h1>
+
+                    
                     <div className='div-btn'>
-                        <Link to='/topics'>
+                        <Link to='/topics' className='design'>
                             <button className='quiz-btn'>Take a quiz &nbsp; <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button>
                         </Link>
                     </div>
