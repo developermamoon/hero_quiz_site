@@ -28,11 +28,6 @@ const Home = () => {
 
         <div className="quiz-part">
                 
-                {/* <div className='all-cards'>
-                    {
-                        data.map(quiz => <Card key={quiz.id} quiz={quiz}></Card>)
-                    }
-                </div> */}
                 <Topics></Topics>
         </div>
         </div>
