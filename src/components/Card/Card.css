@@ -1,0 +1,30 @@
+.card{
+    /* border: 1px solid black; */
+    box-shadow: 5px 10px 10px #888888;
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+.card img{
+    width: 230px;
+    background-color: lightgray;
+}
+.lower-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.practise-btn{
+    border: 0;
+    background-color: royalblue;
+    padding: 6px 5px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.practise-btn:hover{
+    background-color: darkcyan;
+}
