@@ -34,6 +34,14 @@ input[type = radio], label{
 .question{
     text-align: left;
 }
+.question-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.eye-icon{
+    cursor: pointer;
+}
 
  /*------------------- Mobile view  ---------------*/
  @media only screen and (max-width: 576px){

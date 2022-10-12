@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye, faEyedropper } from '@fortawesome/free-solid-svg-icons'
 import './Question.css'
 
 const Question = (props) => {
@@ -18,7 +20,10 @@ const Question = (props) => {
     // console.log(id);
     return (
         <div className='box'>
-            <h5 className='question'>Quiz {index}: {question}</h5>
+            <div className="question-part">
+                <h5 className='question'>Quiz {index}: {question}</h5>
+                <FontAwesomeIcon className='eye-icon' icon={faEye}></FontAwesomeIcon>
+            </div>
             <div className="options">
                 {/* <input type="radio" name="" id="" /> */}
                 {/* <p className='option'>{elem}</p> */}

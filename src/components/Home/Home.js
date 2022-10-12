@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+    import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import image from '../../images/banner5.jpg'
 import { Link } from 'react-router-dom';
 import Topics from '../Topics/Topics';
