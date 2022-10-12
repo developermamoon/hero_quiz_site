@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import Main from './components/Main/Main';
 import Statistics from './components/Statistics/Statistics';
 import Topics from './components/Topics/Topics';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const router = createBrowserRouter([
