@@ -11,8 +11,58 @@
     gap: 10px;
     padding: 30px 0;
 }
+.option p{
+    margin: 0;
+    margin-left: 15px;
+    cursor: pointer;
+}
 .option{
     border-radius: 15px;
     padding: 10px 5px;
     border: 1px solid black;
+    display: flex;
+    justify-content: cen;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
 }
+
+input[type = radio], label{
+    cursor: pointer;
+
+}
+.question{
+    text-align: left;
+}
+
+ /*------------------- Mobile view  ---------------*/
+ @media only screen and (max-width: 576px){
+    .box {
+            background-color: whitesmoke;
+            margin: 30px 25px;
+            padding: 15px;
+            border-radius: 30px;
+            box-shadow: 5px 10px 10px #888888;
+        }
+        .box h5{
+            margin-top: 10px;
+            font-size: 15px;
+        }
+    
+        .options {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 10px;
+            padding: 30px 0;
+        }
+    
+        .option {
+            border-radius: 15px;
+            padding: 10px 10px;
+            border: 1px solid black;
+        }
+
+        .options p{
+            font-size: 14px;
+        }
+ }

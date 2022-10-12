@@ -71,10 +71,10 @@
     .quiz-btn {
         border: 0;
         background-color: royalblue;
-        padding: 6px 5px;
+        padding: 6px 8px;
         border-radius: 7px;
         color: white;
-        font-size: 8px;
+        font-size: 12px;
         font-weight: bold;
         cursor: pointer;
         margin-top: 10px;
