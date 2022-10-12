@@ -7,3 +7,21 @@
 .recharts-wrapper {
     margin: 0 auto;
 }
+.small-chart{
+    display: none;
+}
+
+ /*------------------- tab view  ---------------*/
+
+ @media only screen and (min-width: 577px) and (max-width: 990px){}
+
+
+ /*------------------- Mobile view  ---------------*/
+ @media only screen and (max-width: 576px){
+    .big-chart{
+        display: none;
+    }
+        .small-chart {
+            display: block;
+        }
+ }

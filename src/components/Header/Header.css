@@ -12,12 +12,6 @@
     text-decoration: none;
     color: white;
 }
-/* .nav a{
-    font-weight: 500;
-    text-decoration: none;
-    color: white;
-    margin-right: 20px;
-} */
 
 .active{
     background-color: darkcyan;
@@ -32,3 +26,28 @@ Nav a{
 Nav a:hover{
     color: white;
 }
+
+ /*------------------- tab view  ---------------*/
+
+ @media only screen and (min-width: 577px) and (max-width: 990px){
+    Link a{
+        width: 100%;
+        background-color: darkcyan;
+    }
+    .active {
+            background-color: darkcyan;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+        }
+ }
+ /*------------------- Mobile view  ---------------*/
+ @media only screen and (max-width: 576px){
+    
+    .active {
+    background-color: darkcyan;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    }
+ }

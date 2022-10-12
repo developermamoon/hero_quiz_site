@@ -17,7 +17,7 @@ const Home = () => {
                         <h1>Test your Skills</h1>
                         <div className='div-btn'>
                             <Link to='/topics'>
-                                <Button variant='primary' >Take a quiz&nbsp; <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></Button>
+                                <button className='quiz-btn' >Take a quiz&nbsp; <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button>
                             </Link>
                         </div>
                     </div>
