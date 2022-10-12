@@ -1,4 +1,11 @@
+.header2{
+    text-align: center;
+}
+
 .home-header{
-    background-color: blue;
+    display: inline-block;
+    background-color: mediumslateblue;
+    padding: 15px;
+    border-radius: 20px;
     color: white;
 }
