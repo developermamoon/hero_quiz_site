@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Question from '../Question/Question';
 import './Questions.css'
@@ -16,7 +16,8 @@ const Questions = () => {
                 <h5>Number of questions: {total}</h5>
                 <div className=''>
                     {
-                        questions.map(question => <Question key = {question.id} question = {question}></Question>)
+                        questions.map((question,index) => <Question key = {question.id} question = {question} index = {index+1}></Question>)
+                        
                     }
                 </div>
             </div>
