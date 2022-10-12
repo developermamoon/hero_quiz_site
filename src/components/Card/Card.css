@@ -10,8 +10,9 @@
     transition: 0.5s;
 }
 .card img{
-    width: 230px;
+    /* width: 230px; */
     background-color: lightgray;
+    margin-bottom: 15px;
 }
 .lower-part{
     display: flex;
@@ -32,7 +33,9 @@
     color: white;
     font-weight: bold;
     cursor: pointer;
+    font-size: 12px;
 }
+
 .practise-btn:hover{
     background-color: darkcyan;
 }

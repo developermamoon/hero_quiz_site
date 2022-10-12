@@ -5,6 +5,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import image from '../../images/banner5.jpg'
 import { Link } from 'react-router-dom';
 import Topics from '../Topics/Topics';
+import { Button } from 'react-bootstrap';
 
 const Home = () => {
     
@@ -15,8 +16,8 @@ const Home = () => {
                     <div className="div">
                         <h1>Test your Skills</h1>
                         <div className='div-btn'>
-                            <Link to='/topics' className='design'>
-                                <button className='quiz-btn'>Take a quiz &nbsp; <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button>
+                            <Link to='/topics'>
+                                <Button variant='primary' >Take a quiz&nbsp; <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></Button>
                             </Link>
                         </div>
                     </div>
