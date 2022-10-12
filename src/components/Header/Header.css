@@ -10,6 +10,10 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
 }
+.site-name a{
+    text-decoration: none;
+    color: white;
+}
 .nav a{
     text-decoration: none;
     color: white;
