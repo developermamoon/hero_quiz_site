@@ -11,7 +11,7 @@ const Card = (props) => {
             <img src={logo} alt="" />
             <div className="lower-part">
                 <h5>{name}</h5>
-                <Link to={`${id}`}><button className='practise-btn'>Start Practise &nbsp; <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button></Link>
+                <Link to={`/topics/${id}`}><button className='practise-btn'>Start Practise &nbsp; <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button></Link>
             </div>
         </div>
     );
